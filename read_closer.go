@@ -13,6 +13,5 @@ func NewReadCloser(d interface{}) (io.ReadCloser, error) {
 		return nil, err
 	}
 
-	c := ioutil.NopCloser(r)
-	return c, nil
+	return ioutil.NopCloser(r), nil
 }
