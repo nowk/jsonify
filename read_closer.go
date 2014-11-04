@@ -6,7 +6,7 @@ import (
 )
 
 // NewReadCloser returns a marshalled struct as a ReadCloser
-// Reader is from obtained from NewReader
+// Reader is obtained from NewReader
 func NewReadCloser(d interface{}) (io.ReadCloser, error) {
 	r, err := NewReader(d)
 	if err != nil {
