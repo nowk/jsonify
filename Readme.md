@@ -4,6 +4,9 @@
 
 Mashalled JSON as Reader or ReadCloser
 
+## Install
+
+    go get gopkg.in/nowk/jsonify.v1
 
 ## License
 
