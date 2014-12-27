@@ -1,6 +1,6 @@
 # jsonify
 
-[![GoDoc](https://godoc.org/github.com/nowk/jsonify?status.svg)](http://godoc.org/github.com/nowk/jsonify)
+[![GoDoc](https://godoc.org/gopkg.in/nowk/jsonify.v1?status.svg)](http://godoc.org/gopkg.in/nowk/jsonify.v1)
 
 Mashalled JSON as Reader or ReadCloser
 
